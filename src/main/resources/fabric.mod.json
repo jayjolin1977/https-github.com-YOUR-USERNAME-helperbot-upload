@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "helperbot",
+  "version": "${version}",
+  "name": "Helper Bot",
+  "description": "A helper you command to mine ores and stone, chop trees, pick up items and sort everything into your chests.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.helperbot.HelperBotMod"],
+    "client": ["com.helperbot.client.HelperBotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
