@@ -334,12 +334,12 @@ public class HelperEntity extends PathfinderMob {
 	}
 
 	private static boolean isOre(BlockState s) {
-		return s.is(C_ORES)
-				|| s.is(BlockTags.COAL_ORES) || s.is(BlockTags.IRON_ORES)
-				|| s.is(BlockTags.COPPER_ORES) || s.is(BlockTags.GOLD_ORES)
-				|| s.is(BlockTags.REDSTONE_ORES) || s.is(BlockTags.LAPIS_ORES)
-				|| s.is(BlockTags.DIAMOND_ORES) || s.is(BlockTags.EMERALD_ORES)
-				|| s.is(Blocks.NETHER_QUARTZ_ORE) || s.is(Blocks.ANCIENT_DEBRIS);
+		   		return s.is(C_ORES)
+   				|| s.is(BlockTags.COAL_ORES) || s.is(BlockTags.IRON_ORES)
+   				|| s.is(BlockTags.COPPER_ORES) || s.is(BlockTags.GOLD_ORES)
+   				|| s.is(BlockTags.REDSTONE_ORES) || s.is(BlockTags.LAPIS_ORES)
+   				|| s.is(BlockTags.DIAMOND_ORES) || s.is(BlockTags.EMERALD_ORES)
+   				|| s.is(Blocks.NETHER_QUARTZ_ORE) || s.is(Blocks.ANCIENT_DEBRIS);
 	}
 
 	private static boolean isExposed(Level level, BlockPos pos) {
